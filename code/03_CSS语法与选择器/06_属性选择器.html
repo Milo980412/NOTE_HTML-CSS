@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*
+            [属性名] 选择含有指定属性的元素
+            [属性名=属性值] 选择含有指定属性和属性值的元素
+            [属性名^=属性值] 选择属性值以指定值开头的元素
+            [属性名$=属性值] 选择属性值以指定值结尾的元素
+        */
+        p[title]{
+            color: orange;
+        }
+        p[title=bcd]{
+            color: red;
+        }
+        p[title^=a]{
+            color: blue;
+        }
+        p[title$=d]{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>《定风波 》</h1>
+    <p title="abc">莫听穿林打叶声,何妨吟啸且徐行。</p>
+    <p title="bcd">竹杖芒鞋轻胜马,谁怕一蓑烟雨任平生。</p>
+    <p title="acd">料峭春风吹酒醒,微冷,山头斜照却相迎。</p>
+    <p title>回首向来萧瑟处,归去,也无风雨也无睛。</p>
+</body>
+</html>

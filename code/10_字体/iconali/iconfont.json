@@ -1,0 +1,51 @@
+{
+  "id": "3427177",
+  "name": "iconlali",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10130849",
+      "name": "湿垃圾",
+      "font_class": "shilaji",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "10130857",
+      "name": "干垃圾",
+      "font_class": "ganlaji",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "10130861",
+      "name": "其他垃圾",
+      "font_class": "qitalaji",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "10130863",
+      "name": "有害垃圾",
+      "font_class": "youhailaji",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "10130865",
+      "name": "厨余垃圾",
+      "font_class": "chuyulaji",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "10130868",
+      "name": "可回收物",
+      "font_class": "kehuishouwu",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    }
+  ]
+}

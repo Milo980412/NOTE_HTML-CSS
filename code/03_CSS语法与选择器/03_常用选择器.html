@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*
+            将所有的段落设置为红色(字体)
+
+            元素选择器
+                作用：根据标签名来选中指定的元素
+                语法：标签名{}
+                例子：p{} h1{} div{}
+            
+            id选择器
+                作用：根据元素的id属性值选中一个元素
+                语法：#id属性值{}
+                例子：#red{} #box{}
+            
+            class选择器（类选择器）
+                作用：根据元素的class属性值选中一个元素
+                语法：.clss属性值{}
+                例子：.red{} #box{}
+
+            通配选择器
+                作用：选中页面中的所有元素
+                语法：*
+        */
+        p{
+            color:orange;
+        }
+
+        h1{
+            color:green;
+        }
+
+        #red{
+            color: red;
+        }
+
+        .blue{
+            color: blue;
+        }
+        .abc{
+            font-size: 30px;
+        }
+        *{
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>《定风波 》</h1>
+    <p>莫听穿林打叶声,何妨吟啸且徐行。</p>
+    <p id="red">竹杖芒鞋轻胜马,谁怕一蓑烟雨任平生。</p>
+    <p class="blue">料峭春风吹酒醒,微冷,山头斜照却相迎。</p>
+    <p class="blue abc">回首向来萧瑟处,归去,也无风雨也无睛。</p>
+    <!-- 
+        class是一个标签的属性，它和id类似,不同的是class可以重复使用
+            可以通过class属性来给元素分组
+     -->
+</body>
+</html>

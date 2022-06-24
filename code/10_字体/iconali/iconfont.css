@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3427177 */
+  src: url('iconfont.woff2?t=1653449695872') format('woff2'),
+       url('iconfont.woff?t=1653449695872') format('woff'),
+       url('iconfont.ttf?t=1653449695872') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shilaji:before {
+  content: "\e622";
+}
+
+.icon-ganlaji:before {
+  content: "\e623";
+}
+
+.icon-qitalaji:before {
+  content: "\e624";
+}
+
+.icon-youhailaji:before {
+  content: "\e625";
+}
+
+.icon-chuyulaji:before {
+  content: "\e626";
+}
+
+.icon-kehuishouwu:before {
+  content: "\e627";
+}
+

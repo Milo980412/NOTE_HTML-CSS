@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>超链接</title>
+</head>
+<body>
+    <!-- 
+        超链接可以让我们从一个页面跳转到其他页面,或者是当前页面的其他的位置
+        - 使用a标签来定义超链接
+        - 超链接是也是一个行内元素,在a标签中可以嵌套除它自身外的任何元素
+
+        当我们需要跳转一个服务器内部的页面时,一般我们都会使用相对路径
+            相对路径都会使用..或.开头
+            ./
+            ../
+        ./可以省略不写,如果不写./也不写../则就相当于写了./
+        
+        ./表示当前文件所在的目录
+        ../表示当前文件所在目录的上一级目录
+
+     -->
+    
+    <a href="https://www.baidu.com">超链接</a>
+    <br><br>
+    <a href="06_列表.html">超链接</a>
+    <br><br>
+    <a href="./06_列表.html">超链接</a>
+    <br><br>
+    <a href="../">超链接</a>
+    <br><br>
+    <a href="./intorduce/02_HTML注释.html">超链接</a>
+
+    <!-- 
+        - target属性，用来指定超链接的位置
+        - 有两个可选属性值：
+            _self 默认值 在当前页面中打开超链接
+            _blank 在一个新的页面中打开超链接
+     -->
+    <a href="06_列表.html" target="_self">超链接</a>
+    <br><br>
+    <a href="06_列表.html" target="_blank">超链接</a>
+    <br><br>
+
+
+    <!-- 
+        - 可以直接将超链接的href属性设置为 #,这样点击超链接以后
+            页面不会发生跳转,而是转到当前页面的顶部的位置
+
+        - 可以跳转到页面的指定位置,只需将href属性设置 #目标元素的id属性值
+        - id属性(唯一不重复的)
+            每一个标签都可以添加一个id属性
+            id属性就是元素的唯一标识,同一个页面中不能出现重复的id属性
+     -->
+
+     <a href="javascript:;">这是一个新的超链接</a>
+     <br><br>
+
+    <a href="#bottom">回到底部</a>
+    <br><br>
+    <a href="#p3">回到p3</a>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, cupiditate consequatur saepe debitis doloremque quasi, voluptate laudantium nobis laborum facilis, esse enim tenetur atque? Sunt natus molestiae necessitatibus reiciendis voluptas!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, cupiditate consequatur saepe debitis doloremque quasi, voluptate laudantium nobis laborum facilis, esse enim tenetur atque? Sunt natus molestiae necessitatibus reiciendis voluptas!</p>
+    <p id="p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, cupiditate consequatur saepe debitis doloremque quasi, voluptate laudantium nobis laborum facilis, esse enim tenetur atque? Sunt natus molestiae necessitatibus reiciendis voluptas!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, cupiditate consequatur saepe debitis doloremque quasi, voluptate laudantium nobis laborum facilis, esse enim tenetur atque? Sunt natus molestiae necessitatibus reiciendis voluptas!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, cupiditate consequatur saepe debitis doloremque quasi, voluptate laudantium nobis laborum facilis, esse enim tenetur atque? Sunt natus molestiae necessitatibus reiciendis voluptas!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, cupiditate consequatur saepe debitis doloremque quasi, voluptate laudantium nobis laborum facilis, esse enim tenetur atque? Sunt natus molestiae necessitatibus reiciendis voluptas!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, cupiditate consequatur saepe debitis doloremque quasi, voluptate laudantium nobis laborum facilis, esse enim tenetur atque? Sunt natus molestiae necessitatibus reiciendis voluptas!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, cupiditate consequatur saepe debitis doloremque quasi, voluptate laudantium nobis laborum facilis, esse enim tenetur atque? Sunt natus molestiae necessitatibus reiciendis voluptas!</p>
+
+    <a id="bottom" href="#">回到顶部</a>
+
+
+</body>
+</html>
