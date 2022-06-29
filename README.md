@@ -1,12 +1,12 @@
 ## 介绍
 
-此项目为Milo学习HTML过程中记录的笔记和源码，视频看的B站尚硅谷李立超老师的HTML&CSS视频，笔记参考vectorX大佬的学习笔记，综合整理了笔记、源码code和相关面试题，面试题后面会持续更新，也会单独建立一个项目
+此项目为Milo学习HTML过程中记录的 **笔记** 和 **源码**，视频看的B站尚硅谷李立超老师的HTML&CSS视频，笔记参考vectorX大佬的学习笔记，综合整理了笔记、源码code和相关面试题，面试题后面会持续更新，也会单独建立一个项目
 
 ## 其他地址
 
-- Github：https://github.com/Milo980412/NOTE_JS
-- 语雀：https://www.yuque.com/u26476221/my897g
-- Milo的前端日记：https://miloreact.github.io/pages/javascript/start.html
+- Github：[https://github.com/Milo980412/NOTE_HTML-CSS](https://github.com/Milo980412/NOTE_HTML-CSS)
+- 语雀：[https://www.yuque.com/u26476221/cr1daz](https://www.yuque.com/u26476221/cr1daz)
+- Milo前端日记：[https://miloreact.github.io/pages/htmlcss/start.html](https://miloreact.github.io/pages/htmlcss/start.html)
 
 ## 目录
 
